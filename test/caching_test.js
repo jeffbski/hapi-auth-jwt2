@@ -128,7 +128,7 @@ test("caching - Verification in 'required' mode ", function(t) {
   });
 });
 
-/* second pass cached responses */
+/* second pass cache valid responses, invalid not-cached */
 
 
 test("caching 2nd pass - simulate error condition", function(t) {
